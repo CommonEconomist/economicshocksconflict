@@ -1,36 +1,24 @@
-Replication material: *"Economic Shocks and Civil Conflict Onset in Sub-Saharan Africa, 1981-2010"*    
-Submitted: 2013.07.15      
-Accepted: 2013.12.19      
-URL: https://www.tandfonline.com/doi/full/10.1080/10242694.2014.887489    
+ECONOMIC SHOCKS AND CIVIL CONFLICT ONSET IN SUB-SAHARAN AFRICA, 1981-2010    
+https://www.tandfonline.com/doi/full/10.1080/10242694.2014.887489    
 
-Data and code to replicate results as reported in the paper. 
-Models fitted with Stata/IC 12.1; figures created using R.
-For issues replicating the results contact me via email: vanweezel (at) pm.me.
+Submitted: 15 JUL 2013    
+Accepted:  19 DEC 2013    
 
-#### Description
-`code` 
-* `precipitation.R`: aggregated precipitation data to country level;
-* `replication_dpe.do`: replicates estimation;
-* `figures_dpe.R`: creates figures as reported in the paper.
+For issues replicating the results contact me via email: vanweezel (at) pm.me.    
 
-`raw_data`
-* `shp`: contains shapefiles required for `precipitation.R` and `figures_dpe.R`       
+**Abstract:**
+>*A number of studies have examined the link between rainfall and conflict but results so far have been inconclusive. This study examines the effect of rainfall on economic performance in different sectors and conflict onset. The empirical analysis finds no support for a strong relation between rainfall and conflict as most results are not robust to different model specifications. The results also do not provide conclusive evidence for a link between growth in specific economic sectors and civil conflict onset.*
 
-`tidy_data`
-* `dpe_2015`: main dataset (Stata `.dta` file);
-*  `map_data.csv`: required for `figures_dpe.R`;
-*  `precipitation.csv`: precipitation data aggregated to country level - the product of `precipitation.R`. 
-
-#### BibTeX
+**Citation:**
 ```
 @article{vanweezel2015,
-  title={Economic shocks \& civil conflict onset in Sub-Saharan Africa, 1981--2010},
-  author={Van Weezel, Stijn},
-  journal={Defence and Peace Economics},
-  volume={26},
-  number={2},
-  pages={153--177},
-  year={2015},
-  publisher={Taylor \& Francis}
+	title        = {Economic shocks \& civil conflict onset in Sub-Saharan Africa, 1981--2010},
+	author       = {Van Weezel, Stijn},
+	year         = 2015,
+	journal      = {Defence and Peace Economics},
+	publisher    = {Taylor \& Francis},
+	volume       = 26,
+	number       = 2,
+	pages        = {153--177}
 }
 ```
